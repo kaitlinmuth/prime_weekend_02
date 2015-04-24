@@ -1,0 +1,11 @@
+.btn{
+	height: 50px;
+	width: 50px;
+	display: table-cell;
+	margin-left: 50px;
+}
+
+#content{
+	margin: 0px auto;
+	width: 75%;
+}
