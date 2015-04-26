@@ -1,11 +1,69 @@
-.btn{
-	height: 50px;
-	width: 50px;
-	display: table-cell;
-	margin-left: 50px;
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: black;
+	color: white;
 }
 
-#content{
-	margin: 0px auto;
-	width: 75%;
+.sidebar{
+	width: 30%;
+	display: inline-block;
+	text-align:
+}
+
+#teams{
+	position: fixed;
+	top: 0px;
+	left: 40%;
+	width: 58%;
+	display: inline-block;
+}
+
+.btn{
+	border: 2px solid black;
+	padding: 20px;
+	margin: 5px;
+	display: inline-table;
+	background-color: darkcyan;
+	border-radius: 5%;
+}
+
+#content h1{
+	display: inline-block;
+	font-size: 48px;
+}
+
+#content h2{
+	font-size: 36px;
+}
+
+
+#generator{
+	background-color: darkorange;
+	border: 2px solid black;
+	padding: 20px;
+	width: 25px;
+	height: auto;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 5%;
+}
+
+#typeSelect{
+	display: inline-block;
+	background-color: darkcyan;
+	border: 2px solid black;
+	padding: 5px;
+	margin: auto 10px;
+	height: auto;
+	width: 50px;
+	font-size: 12px;
+	text-align: center;
+	border-radius: 5%;
+}
+
+.groupCol{
+	display: inline-table;
+	padding: 10px;
 }
